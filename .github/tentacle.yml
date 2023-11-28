@@ -1,0 +1,9 @@
+version: beta1
+links:
+  - name: Website
+    url: https://tentacle.app
+  - name: Documentation
+    url: https://www.tentacle.app/docs
+    icon: books
+  - name: Octicons
+    url: https://primer.style/foundations/icons
