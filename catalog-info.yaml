@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tentacle
+  description: A GitHub experience built for engineering teams
+  links:
+    - title: Website
+      url: http://tentacle.app
+    - title: Documentation
+      url: https://tentacle.app/docs
+    - title: Storybook
+      url: https://backstage.io/storybook
+    - title: Datadog
+      url: https://app.datadoghq.com/logs
+    - title: PagerDuty
+      url: https://tentacle.pagerduty.com/logs
+    - title: Runbook
+      url: https://github.com/tentacle-app/live-demo/blob/main/docs/runbook.md
+    - title: JIRA
+      url: https://abc.atlassian.net/jira/
+    - title: Created by Stefan Buck
+      url: https://stefanbuck.com
+spec:
+  type: service
+  owner: stefanbuck.com
+  lifecycle: experimental
